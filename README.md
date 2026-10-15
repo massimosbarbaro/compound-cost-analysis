@@ -18,15 +18,15 @@ I designed and programmed this application in 2002. It is published here in 2026
 - Compound cost analysis: standard versus current cost, scrap %, recovery %, €/h, kg/h, €/kg (`frmCostiS`, `frmATC`).
 - Average costs by thickness range and lamination type.
 - Import of standard and current costs from ERP text exports.
-- Reports produced in Microsoft Access through automation (`frmGrafici`).
+- Reports produced in the db through automation (`frmGrafici`).
 
 ## Data
 
-Microsoft Access database (`Costi.mdb`) through DAO. Main tables: `MescoleMaxCostoCRR`, `CostoMa514`, `Scarti`, `MFG`.
+Database (`Costi.mdb`) through DAO. Main tables: `MescoleMaxCostoCRR`, `CostoMa514`, `Scarti`, `MFG`.
 
 ## Technology
 
-DAO 3.51, Microsoft Access 8 object library, Crystal Reports, Winsock, Common Controls, Tab control, Masked Edit.
+DAO 3.51, db object library 8, Crystal Reports, Winsock, Common Controls, Tab control, Masked Edit.
 
 ## Repository contents
 
